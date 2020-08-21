@@ -1,0 +1,53 @@
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  background-color: var(--slack-color);
+  color: white;
+  width: 100% !important;
+  font-size: 1.6rem !important;
+}
+.header__left {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.header__left > .MuiSvgIcon-root {
+  margin-left: auto;
+  margin-right: 30px;
+  font-size: 2rem;
+}
+.header__search {
+  flex: 0.4;
+  background-color: #421f44;
+  text-align: center;
+  display: flex;
+  padding: 0 5rem;
+  color: gray;
+  border: 1px gray solid;
+  width: 100%;
+}
+.header__search > input {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  width: 40%;
+}
+.header__search > .MuiSvgIcon-root {
+  font-size: 2rem;
+}
+.header__right {
+  flex: 0.3;
+  display: flex;
+  align-items: flex-end;
+}
+
+.header__right > .MuiSvgIcon-root {
+  margin: auto;
+  margin-right: 2rem;
+  font-size: 2rem;
+}
